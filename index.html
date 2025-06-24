@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandeep Undurthi | Data Scientist</title>
+    <meta name="description" content="Sandeep Undurthi's data science portfolio, showcasing machine learning projects in fraud detection, sentiment analysis, regression, and more.">
+    
+    <!-- Link to your CSS file. Ensure 'style.css' is in the SAME folder as this index.html file. -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#hero" class="logo">Sandeep Undurthi</a>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- Ensure your resume is in the 'assets' folder -->
+                <li><a href="assets/Sandeep_Undurthi_Resume.pdf" class="cta-button" target="_blank">Resume</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Hi, I’m Sandeep Undurthi — a Data Scientist passionate about turning data into intelligent solutions.</h1>
+                <p>I build and deploy real-world AI applications with impact — from fraud detectors to forecasting tools.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button primary">View My Projects</a>
+                    <!-- Ensure your resume is in the 'assets' folder -->
+                    <a href="assets/Sandeep_Undurthi_Resume.pdf" class="cta-button" target="_blank">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                
+                <!-- Project 1: Fake Job Posting Detector -->
+                <div class="project-card">
+                    <h3>Fake Job Posting Detector</h3>
+                    <p>An explainable AI tool to detect and flag fraudulent job listings using textual and metadata features.</p>
+                    <div class="card-buttons">
+                        <button class="cta-button" data-modal-target="#modal-fake-jobs">View Details</button>
+                        <!-- UPDATE GITHUB LINK BELOW -->
+                        <a href="https://github.com/sandeepundurthi" class="cta-button secondary" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Smart Scheduling -->
+                <div class="project-card">
+                    <h3>Smart Scheduling – Patient No-Show Predictor</h3>
+                    <p>An ML pipeline and Streamlit app to predict appointment no-shows, reducing revenue loss for hospitals.</p>
+                    <div class="card-buttons">
+                        <button class="cta-button" data-modal-target="#modal-scheduling">View Details</button>
+                        <!-- UPDATE GITHUB LINK BELOW -->
+                        <a href="https://github.com/sandeepundurthi" class="cta-button secondary" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Twitter Sentiment Analysis -->
+                <div class="project-card">
+                    <h3>Twitter Sentiment Analysis</h3>
+                    <p>An NLP model to classify tweets, helping organizations gauge public opinion in real-time with 96% accuracy.</p>
+                    <div class="card-buttons">
+                        <button class="cta-button" data-modal-target="#modal-twitter">View Details</button>
+                        <!-- UPDATE GITHUB LINK BELOW -->
+                        <a href="https://github.com/sandeepundurthi" class="cta-button secondary" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                
+                <!-- Project 4: UN Dashboard -->
+                <div class="project-card">
+                    <h3>UN Country Profiles Dashboard</h3>
+                    <p>A full-stack data dashboard for intuitive visual comparison of UN development indicators across 200+ countries.</p>
+                    <div class="card-buttons">
+                        <button class="cta-button" data-modal-target="#modal-un-dashboard">View Details</button>
+                        <!-- UPDATE GITHUB LINK/LIVE DEMO BELOW -->
+                        <a href="https://github.com/sandeepundurthi" class="cta-button secondary" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                
+                <!-- Project 5: Advanced House Price Regression -->
+                <div class="project-card">
+                    <h3>Advanced House Price Regression</h3>
+                    <p>Predicting home sale prices using advanced regression, feature engineering, and regularization techniques.</p>
+                    <div class="card-buttons">
+                        <button class="cta-button" data-modal-target="#modal-house-prices">View Details</button>
+                        <!-- UPDATE GITHUB LINK BELOW -->
+                        <a href="https://github.com/sandeepundurthi" class="cta-button secondary" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 6: Amazon Review Fraud Detector -->
+                <div class="project-card">
+                    <h3>Amazon Review Fraud Detector</h3>
+                    <p>An anomaly detection model using Isolation Forest and SHAP to identify and explain suspicious product reviews.</p>
+                    <div class="card-buttons">
+                        <button class="cta-button" data-modal-target="#modal-fraud-detector">View Details</button>
+                        <!-- UPDATE GITHUB LINK BELOW -->
+                        <a href="https://github.com/sandeepundurthi" class="cta-button secondary" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about-content">
+                <!-- Ensure your headshot is in the 'assets' folder and the name matches EXACTLY -->
+                <img src="assets/sandeep-headshot.jpg" alt="A professional headshot of Sandeep Undurthi" class="headshot">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>I'm a recent Master’s graduate in Computer Science with a strong foundation in machine learning, data analysis, and building end-to-end data-driven applications through academic and personal projects.</p>
+                    <p>I’ve worked with a wide range of tools and frameworks, including Python (Pandas, Scikit-learn, TensorFlow, PyTorch), SQL, and Spark, and have hands-on experience with MLOps tools like MLflow and Vertex AI for model deployment and monitoring.</p>
+                    
+                    <h3>My Interests Include:</h3>
+                    <ul class="skills-list">
+                        <li>LLM Fine-tuning</li><li>Prompt Engineering</li><li>RAG Pipelines</li>
+                        <li>Supervised & Unsupervised Learning</li><li>Causal Inference</li>
+                        <li>Uplift & LTV Modeling</li><li>Data Extraction</li><li>Entity Recognition</li>
+                        <li>Cloud Deployment</li>
+                    </ul>
+
+                    <p>I enjoy solving real-world problems using data, and I’m passionate about building intelligent systems that drive value.</p>
+                    <p><strong>💼 I’m currently seeking an entry-level opportunity as a Data Scientist, Machine Learning Engineer, Data Engineer or Data Analyst, where I can apply my skills, learn from experienced teams, and contribute to impactful projects.</strong></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Let's Connect</h2>
+            <p>I'm currently seeking new opportunities. Feel free to reach out if you have a role that might be a good fit!</p>
+            <!-- IMPORTANT: Replace YOUR_UNIQUE_CODE with your own from Formspree.io -->
+            <form action="https://formspree.io/f/mkgbqkzy" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button primary">Send Message</button>
+            </form>
+            <div class="contact-links">
+                <a href="mailto:sandy.undurthi@gmail.com">sandy.undurthi@gmail.com</a>
+                <span>&nbsp;•&nbsp;</span>
+                <a href="https://www.linkedin.com/in/sandeep-undurthi" target="_blank">LinkedIn</a>
+                <span>&nbsp;•&nbsp;</span>
+                <a href="https://github.com/sandeepundurthi" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sandeep Undurthi. Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <!-- MODALS (Pop-up Case Studies) -->
+    
+    <div class="modal" id="modal-fake-jobs">
+        <div class="modal-content">
+            <button class="close-button">&times;</button>
+            <h3>Fake Job Posting Detector</h3>
+            <h4>Challenge</h4>
+            <p>Online job scams are increasing, tricking job seekers with fake listings. The challenge was to build a model that could detect fraudulent job postings using textual and metadata features.</p>
+            <h4>My Role</h4>
+            <p>ML Engineer & App Developer – Led the entire process: data wrangling, modeling, app development, and explainability integration.</p>
+            <h4>Process & Solution</h4>
+            <ul>
+                <li>Cleaned job descriptions and engineered features: TF-IDF vectors, word counts, capital letter %, etc.</li>
+                <li>Trained Logistic Regression, Random Forest, and Gradient Boosting models.</li>
+                <li>Built a Streamlit app to classify new job descriptions.</li>
+                <li>Integrated SHAP to explain predictions — showing which words contributed to fraud prediction.</li>
+            </ul>
+            <h4>Outcome</h4>
+            <ul>
+                <li>Best model achieved high precision on detecting fraudulent posts.</li>
+                <li>Delivered an interpretable tool that balances performance with trust.</li>
+            </ul>
+            <h4>Reflection</h4>
+            <p>This project made me realize how important interpretability is in high-stakes classification problems. In future versions, I’d integrate BERT embeddings and job-type filters for deeper insights.</p>
+        </div>
+    </div>
+    
+    <div class="modal" id="modal-scheduling">
+        <div class="modal-content">
+            <button class="close-button">&times;</button>
+            <h3>Smart Scheduling – Patient No-Show Predictor</h3>
+            <h4>Challenge</h4>
+            <p>Hospitals suffer high appointment no-show rates (up to 30%), resulting in revenue loss, inefficient resource use, and patient care delays. The challenge: Can we predict no-shows and reduce their impact?</p>
+            <h4>My Role</h4>
+            <p>Data Scientist & App Developer – designed and built the entire ML pipeline, engineered features, and created a deployable app with explainability.</p>
+            <h4>Process & Solution</h4>
+            <ul>
+                <li>Explored 100K+ hospital appointment records to identify key variables (lead time, age, reminders).</li>
+                <li>Engineered features like SMS reminder presence, appointment day gaps, and past attendance.</li>
+                <li>Used SMOTE to address imbalance in the no-show class.</li>
+                <li>Trained multiple models (Logistic Regression, Random Forest) and selected Random Forest (76% accuracy).</li>
+                <li>Applied SHAP for model transparency and real-time explanation.</li>
+            </ul>
+            <h4>Outcome</h4>
+            <ul>
+                <li>Model achieved 76% accuracy and 95% recall for no-shows.</li>
+                <li>Simulated overbooking improved slot utilization by 18%.</li>
+                <li>SHAP visualizations helped explain predictions to hospital staff, boosting trust.</li>
+            </ul>
+            <h4>Reflection</h4>
+            <p>This project taught me the real-world complexity of class imbalance and the power of interpretable ML. I would add logistic cost simulation next time.</p>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-twitter">
+        <div class="modal-content">
+            <button class="close-button">&times;</button>
+            <h3>Twitter Sentiment Analysis</h3>
+            <h4>Challenge</h4>
+            <p>Social media platforms are flooded with user opinions, but understanding sentiment at scale is hard. The challenge was to build an accurate and scalable model to classify tweets into positive, negative, or neutral sentiment, helping organizations gauge public opinion in real time.</p>
+            <h4>My Role</h4>
+            <p>Machine Learning Engineer & Data Analyst – Designed and implemented the complete pipeline — from data cleaning to model training and evaluation.</p>
+            <h4>Process & Solution</h4>
+            <ul>
+                <li>Collected and analyzed Twitter sentiment data with labeled classes.</li>
+                <li>Cleaned text (removal of URLs, stopwords, and special characters), performed tokenization and lemmatization.</li>
+                <li>Built baseline models (Naive Bayes, Logistic Regression) and later improved with an Artificial Neural Network using Keras/TensorFlow.</li>
+                <li>Tuned hyperparameters and monitored overfitting using early stopping.</li>
+            </ul>
+            <h4>Outcome</h4>
+            <ul>
+                <li>Achieved 96.8% accuracy with the ANN, outperforming traditional models.</li>
+                <li>Built a modular notebook pipeline, easily reusable for other sentiment tasks.</li>
+            </ul>
+            <h4>Reflection</h4>
+            <p>I learned how deep learning can significantly outperform classical ML in NLP tasks — but also realized the importance of preprocessing in noisy datasets like Twitter. Next time, I'd explore transformer-based models (e.g., BERT) for further gains.</p>
+        </div>
+    </div>
+    
+    <div class="modal" id="modal-un-dashboard">
+        <div class="modal-content">
+            <button class="close-button">&times;</button>
+            <h3>UN Country Profiles Dashboard</h3>
+            <h4>Challenge</h4>
+            <p>Policy makers and researchers often lack easy access to intuitive visual comparisons across countries for development indicators (e.g., GDP, internet usage). Can we build a dashboard that brings clarity to this data?</p>
+            <h4>My Role</h4>
+            <p>Full-Stack Data Developer – handled data cleaning, dashboard engineering, map visualizations, and cloud deployment.</p>
+            <h4>Process & Solution</h4>
+            <ul>
+                <li>Used UN datasets with indicators for 200+ countries.</li>
+                <li>Built dashboard with Streamlit + Plotly.</li>
+                <li>Implemented: country profile viewer, top-10 rankings, and side-by-side comparison tool.</li>
+                <li>Enabled CSV download and deployed app via Streamlit Cloud.</li>
+            </ul>
+            <h4>Outcome</h4>
+            <ul>
+                <li>Deployed dashboard used by 300+ visitors in the first month.</li>
+                <li>Used by 2 data science bootcamps as a teaching aid.</li>
+                <li>Reduced manual data lookup effort for economic analysts.</li>
+            </ul>
+            <h4>Reflection</h4>
+            <p>Learned importance of UI clarity and need for caching in Streamlit. Next version will include time series comparison and mobile responsiveness.</p>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-house-prices">
+        <div class="modal-content">
+            <button class="close-button">&times;</button>
+            <h3>House Prices - Advanced Regression Techniques</h3>
+            <h4>Challenge</h4>
+            <p>Housing prices depend on complex features — from lot area to neighborhood. The goal was to predict sale prices of homes in Ames, Iowa, using advanced regression models and feature engineering.</p>
+            <h4>My Role</h4>
+            <p>Data Scientist & Feature Engineer – Focused on preprocessing, model evaluation, and submission for Kaggle leaderboard.</p>
+            <h4>Process & Solution</h4>
+            <ul>
+                <li>Conducted EDA and handled missing values using domain logic.</li>
+                <li>Applied log-transformation to skewed features and one-hot encoding to categorical variables.</li>
+                <li>Trained and compared Ridge, Lasso, ElasticNet, and XGBoost models.</li>
+                <li>Evaluated models using cross-validation RMSE and generated .csv submissions.</li>
+            </ul>
+            <h4>Outcome</h4>
+            <ul>
+                <li>Ridge Regression performed best with lowest cross-validation error.</li>
+                <li>Cleaned and modularized code for future competitions or deployments.</li>
+            </ul>
+            <h4>Reflection</h4>
+            <p>I learned the value of feature preprocessing and regularization in tabular data problems. I’d next explore feature importance and SHAP plots to better interpret models.</p>
+        </div>
+    </div>
+    
+    <div class="modal" id="modal-fraud-detector">
+        <div class="modal-content">
+            <button class="close-button">&times;</button>
+            <h3>Amazon Review Fraud Detector</h3>
+            <h4>Challenge</h4>
+            <p>E-commerce platforms face a flood of fake or incentivized reviews. How can we identify suspicious reviews using explainable AI?</p>
+            <h4>My Role</h4>
+            <p>ML Engineer – built the feature pipeline, trained models, and developed an explainable Streamlit app.</p>
+            <h4>Process & Solution</h4>
+            <ul>
+                <li>Mined features from reviews: sentiment polarity, review length, rating polarity mismatch.</li>
+                <li>Used Isolation Forest for anomaly detection.</li>
+                <li>Integrated SHAP to explain outlier scores.</li>
+                <li>Built a Streamlit UI to input review text and return trust score + SHAP-based breakdown.</li>
+            </ul>
+            <h4>Outcome</h4>
+            <ul>
+                <li>Identified 91% of manually labeled fake reviews.</li>
+                <li>Enabled trust scoring of reviews in real time.</li>
+                <li>App used in portfolio and shared on LinkedIn, gaining recruiter interest.</li>
+            </ul>
+            <h4>Reflection</h4>
+            <p>Explaining anomaly detection results to non-technical users was a big win. I would now include verified purchase metadata in v2.</p>
+        </div>
+    </div>
+
+    <div id="overlay"></div>
+
+    <!-- Link to your JavaScript file. Ensure 'script.js' is in the SAME folder as this index.html file. -->
+    <script src="script.js"></script>
+
+</body>
+</html>
