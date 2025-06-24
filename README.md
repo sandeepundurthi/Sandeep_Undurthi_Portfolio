@@ -1,4 +1,4 @@
-# Sandeep Undurthi's Data Science Portfolio
+# Sandeep Undurthi's Portfolio
 
 This is a professional portfolio website built using HTML, CSS, and JavaScript, showcasing data-driven projects including:
 
@@ -9,6 +9,7 @@ This is a professional portfolio website built using HTML, CSS, and JavaScript, 
 - 🌐 UN Country Profiles Data Dashboard
 - 🧠 Amazon Review Fraud Detection with SHAP
 - 🏥 Smart Scheduling for Hospital No-Shows
+- Many more
 
 ## 🌐 Live Site
 [https://sandeepundurthi.github.io/your-portfolio](https://sandeepundurthi.github.io/your-portfolio)
