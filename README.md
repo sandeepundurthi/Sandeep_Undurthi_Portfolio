@@ -12,7 +12,7 @@ This is a professional portfolio website built using HTML, CSS, and JavaScript, 
 - Many more
 
 ## 🌐 Live Site
-([https://sandeepundurthi.github.io/your-portfolio](https://sandeepundurthi.github.io/Sandeep_Undurthi_Portfolio/))
+([https://sandeepundurthi.github.io/Sandeep_Undurthi_Portfolio](https://sandeepundurthi.github.io/Sandeep_Undurthi_Portfolio/))
 
 ## 📁 Folder Structure
 ```
